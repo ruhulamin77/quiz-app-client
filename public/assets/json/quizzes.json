@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "quiz": "What is HTML stands for?",
+    "options": [
+      "Heypertext Markup Language",
+      "Heypertext Makeup Language",
+      "Highlight Markup Language",
+      "Highlight Matchup Language",
+      "Hilavel Model Language"
+    ],
+    "answers": ["Heypertext Markup Language"]
+  },
+  {
+    "id": 2,
+    "quiz": "What is CSS stands for?",
+    "options": [
+      "Casual Style Sheet",
+      "Cosmetics Style Sheet",
+      "Cascading Style Sheet",
+      "Consumer Style Sheet",
+      "Cascading Style Shoot"
+    ],
+    "answers": ["Cascading Style Sheet"]
+  },
+  {
+    "id": 3,
+    "quiz": "What is Node Js?",
+    "options": [
+      "Node.js is an open-source JavaScript runtime environment built on Chrome's V8 JavaScript engine.",
+      "Cascading Style Sheet",
+      "Consumer Style Sheet",
+      "Node.js uses an event-driven, non-blocking I/O model, making it lightweight and efficient.",
+      "Cascading Style Shoot"
+    ],
+    "answers": [
+      "Node.js is an open-source JavaScript runtime environment built on Chrome's V8 JavaScript engine.",
+      "Node.js uses an event-driven, non-blocking I/O model, making it lightweight and efficient."
+    ]
+  }
+]

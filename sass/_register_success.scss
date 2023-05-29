@@ -1,0 +1,11 @@
+.register-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: cadetblue;
+  }
+}

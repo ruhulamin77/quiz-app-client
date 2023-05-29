@@ -1,0 +1,18 @@
+.dashboard_main {
+  display: flex;
+}
+
+.dashboard_aside {
+  flex: 0;
+  ul li {
+  }
+}
+
+.dashboard_content {
+  flex: 1;
+}
+.form {
+  input {
+    display: block;
+  }
+}

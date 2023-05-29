@@ -1,0 +1,40 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+.correct {
+  background-color: rgb(44, 235, 171);
+}
+
+.wrong {
+  background-color: rgb(201, 137, 137);
+}
+
+.your-core {
+  background-image: linear-gradient(to right, #046c98, #0d8e67);
+  color: #ddd;
+}
+
+.score-table {
+  max-height: 260px;
+  overflow-y: scroll;
+  background-color: #0d8e6767;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.score-table::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+.score-table::-webkit-scrollbar-track {
+  background: #ddd; /* color of the tracking area */
+  border-radius: 25px;
+}
+.score-table::-webkit-scrollbar-thumb {
+  background-color: rgb(9, 189, 87); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
