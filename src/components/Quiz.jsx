@@ -85,7 +85,9 @@ const Quiz = () => {
 
   return (
     <>
-      <h1 className="quiz-header">Answer all the quiz and get your result</h1>
+      <h1 className="quiz-header">
+        Answer all the quizzes and get your result
+      </h1>
       <div className="quiz-container">
         <hr />
         {loading && 'Loading...'}
