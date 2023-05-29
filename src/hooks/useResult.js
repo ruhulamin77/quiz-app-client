@@ -8,7 +8,7 @@ const useResult = () => {
   useEffect(() => {
     setError('');
     setLoading(true);
-    fetch('http://localhost:5000/api/result/getAll')
+    fetch('https://quiz-app-server-q68p.onrender.com/api/result/getAll')
       .then((res) => res.json())
       .then((data) =>
         setResult((prevResult) => {

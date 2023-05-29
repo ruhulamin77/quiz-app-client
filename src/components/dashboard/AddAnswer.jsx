@@ -13,7 +13,7 @@ const AddAnswer = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    fetch('http://localhost:5000/api/answers/add-answer', {
+    fetch('https://quiz-app-server-q68p.onrender.com/api/answers/add-answer', {
       headers: { 'Content-Type': 'application/json' },
       method: 'PUT',
       body: JSON.stringify(data),

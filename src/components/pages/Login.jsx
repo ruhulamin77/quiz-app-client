@@ -34,7 +34,7 @@ function Login() {
     e.preventDefault();
 
     if (user.email && user.password) {
-      fetch('http://localhost:5000/api/users/login', {
+      fetch('https://quiz-app-server-q68p.onrender.com/api/users/login', {
         method: 'POST',
         headers: {
           'content-type': 'application/json',

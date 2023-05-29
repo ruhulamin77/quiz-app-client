@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6472f8134f9c4ba7ebfe7da4"
+  },
+  "firstName": "Ruhul",
+  "lastName": "Amin",
+  "email": "ruhul@gmail.com",
+  "password": "$2b$10$erKhwbEjpciYhCF.p.IbTu80qVbgUukOAb3jE17nEQ8FqfXTcpJ5S",
+  "role": "user",
+  "score": 50,
+  "createdAt": {
+    "$date": "2023-05-28T06:43:31.894Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-29T14:05:29.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6474aeec6ab2006d6d9aacc4"
+  },
+  "firstName": "Arman",
+  "lastName": "Habib",
+  "email": "arman@gmail.com",
+  "password": "$2b$10$NDD4j.uBkvkSZXyd0TGbG.9PntjXxER5DtcfU1.JpIbb3oXHfx/2K",
+  "role": "user",
+  "score": 35,
+  "createdAt": {
+    "$date": "2023-05-29T13:55:56.564Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-29T13:57:10.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6474b0836ab2006d6d9acf21"
+  },
+  "firstName": "Jakir",
+  "lastName": "Hossain",
+  "email": "jakir@gmail.com",
+  "password": "$2b$10$GXdpgJhumq2qOQhUwKp0yeG4eNW9esvTvJAbA3xUTEmi/VnPQAjx6",
+  "role": "user",
+  "score": 45,
+  "createdAt": {
+    "$date": "2023-05-29T14:02:43.842Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-29T14:04:40.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6474b2076ab2006d6d9b1cd7"
+  },
+  "firstName": "Alif",
+  "lastName": "Babu",
+  "email": "alif@gmail.com",
+  "password": "$2b$10$rURUV5axXhllHwMYK2VoL.NNUWmoZiNfONArTdTWpvXQkTFVNNlyC",
+  "role": "user",
+  "score": 0,
+  "createdAt": {
+    "$date": "2023-05-29T14:09:11.894Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-29T14:09:11.894Z"
+  },
+  "__v": 0
+}]

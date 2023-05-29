@@ -13,14 +13,13 @@ const AddQuiz = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    fetch('http://localhost:5000/api/quiz/add-quiz', {
+    fetch('https://quiz-app-server-q68p.onrender.com/api/quiz/add-quiz', {
       headers: { 'Content-Type': 'application/json' },
       method: 'PUT',
       body: JSON.stringify(data),
     })
       .then((res) => res.json())
       .then((data) => console.log(data));
-
   };
   return (
     <Form className="form" method="PUT" onSubmit={submitHandler}>

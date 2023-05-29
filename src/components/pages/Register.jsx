@@ -42,7 +42,7 @@ function Register() {
     ) {
       setLoading(false);
       setError('');
-      fetch('http://localhost:5000/api/users/register', {
+      fetch('https://quiz-app-server-q68p.onrender.com/api/users/register', {
         method: 'POST',
         headers: {
           'content-type': 'application/json',

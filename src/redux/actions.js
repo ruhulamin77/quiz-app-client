@@ -28,7 +28,7 @@ export const loadingAction = (payload) => (dispatch) => {
 // get user data
 // export const getAllUsersAction = (payload) => (dispatch) => {
 //   const { user } = payload;
-//   fetch(`http://localhost:5000/api/users`)
+//   fetch(`https://quiz-app-server-q68p.onrender.com/api/users`)
 //     .then((response) => {
 //       if (response.ok) {
 //         return response.json();

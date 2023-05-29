@@ -1,0 +1,257 @@
+[{
+  "_id": {
+    "$oid": "6474a1155249043b3c84970b"
+  },
+  "questions": [
+    {
+      "title": "What is the correct way to include an external JavaScript file?",
+      "options": [
+        {
+          "title": "import 'script.js",
+          "correct": false
+        },
+        {
+          "title": "link href='script.js'",
+          "correct": false
+        },
+        {
+          "title": "script href='script.js'",
+          "correct": false
+        },
+        {
+          "title": "script src='script.js'",
+          "correct": true
+        },
+        {
+          "title": "All of the the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "Which property is used to change the background color of an element in CSS?",
+      "options": [
+        {
+          "title": "text-color",
+          "correct": false
+        },
+        {
+          "title": "background-color",
+          "correct": true
+        },
+        {
+          "title": "color",
+          "correct": false
+        },
+        {
+          "title": "bgcolor",
+          "correct": false
+        },
+        {
+          "title": "bg-color",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "What is the correct way to define a variable in JavaScript?",
+      "options": [
+        {
+          "title": "variable x;",
+          "correct": false
+        },
+        {
+          "title": "let x;",
+          "correct": true
+        },
+        {
+          "title": "int x;",
+          "correct": false
+        },
+        {
+          "title": "x = 5;",
+          "correct": false
+        },
+        {
+          "title": "var x;",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "What does CSS stand for?",
+      "options": [
+        {
+          "title": "Cascading Style Sheets",
+          "correct": true
+        },
+        {
+          "title": "Creative Style Sheets",
+          "correct": false
+        },
+        {
+          "title": "Computer Style Sheets",
+          "correct": false
+        },
+        {
+          "title": "Colorful Style Sheets",
+          "correct": false
+        },
+        {
+          "title": "Cascading Script Sheets",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "Which HTML tag is used to define an unordered list?",
+      "options": [
+        {
+          "title": "ul",
+          "correct": true
+        },
+        {
+          "title": "ol",
+          "correct": false
+        },
+        {
+          "title": "li",
+          "correct": false
+        },
+        {
+          "title": "list",
+          "correct": false
+        },
+        {
+          "title": "ulist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "What is the purpose of the z-index property in CSS?",
+      "options": [
+        {
+          "title": "To control the vertical alignment of an element",
+          "correct": false
+        },
+        {
+          "title": "To control the order of overlapping elements",
+          "correct": true
+        },
+        {
+          "title": "To control the font size of an element",
+          "correct": false
+        },
+        {
+          "title": "To control the spacing between lines of text",
+          "correct": false
+        },
+        {
+          "title": "To control the background color of an element",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "What is the correct way to select an element with the ID 'myElement' in JavaScript?",
+      "options": [
+        {
+          "title": "getElement('myElement')",
+          "correct": false
+        },
+        {
+          "title": "document.getElementById('myElement')",
+          "correct": true
+        },
+        {
+          "title": "$('#myElement')",
+          "correct": false
+        },
+        {
+          "title": "querySelector('#myElement')",
+          "correct": false
+        },
+        {
+          "title": "getById('myElement')",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Which property is used to control the spacing between HTML elements?",
+      "options": [
+        {
+          "title": "margin",
+          "correct": true
+        },
+        {
+          "title": "padding",
+          "correct": false
+        },
+        {
+          "title": "border",
+          "correct": false
+        },
+        {
+          "title": "spacing",
+          "correct": false
+        },
+        {
+          "title": "line-height",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "What is the correct way to apply an external CSS file to an HTML document?",
+      "options": [
+        {
+          "title": "style src='styles.css'",
+          "correct": false
+        },
+        {
+          "title": "link href='styles.css'",
+          "correct": true
+        },
+        {
+          "title": "script src='styles.css'",
+          "correct": false
+        },
+        {
+          "title": "css href='styles.css'",
+          "correct": false
+        },
+        {
+          "title": "import 'styles.css'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "title": "Which CSS property is used to change the font style of text?",
+      "options": [
+        {
+          "title": "font-style",
+          "correct": false
+        },
+        {
+          "title": "font-size",
+          "correct": false
+        },
+        {
+          "title": "text-style",
+          "correct": false
+        },
+        {
+          "title": "text-font",
+          "correct": false
+        },
+        {
+          "title": "font-family",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}]

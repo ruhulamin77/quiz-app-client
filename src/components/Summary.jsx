@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
+import jwt_decode from 'jwt-decode';
 import { Fragment, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import jwt_decode from 'jwt-decode';
 
 /* eslint-disable react/prop-types */
 const Summary = ({ score, noq }) => {
@@ -11,13 +11,16 @@ const Summary = ({ score, noq }) => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/users/score/${decoded?.email}`, {
-      method: 'PUT',
-      headers: {
-        'content-type': 'application/json',
-      },
-      body: JSON.stringify({ score }),
-    })
+    fetch(
+      `https://quiz-app-server-q68p.onrender.com/api/users/score/${decoded?.email}`,
+      {
+        method: 'PUT',
+        headers: {
+          'content-type': 'application/json',
+        },
+        body: JSON.stringify({ score }),
+      }
+    )
       .then((res) => {
         if (!res.ok) {
           throw new Error('Something went wrong');
@@ -35,7 +38,7 @@ const Summary = ({ score, noq }) => {
   }, [score, user?.email]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/users/getAllUser`)
+    fetch(`https://quiz-app-server-q68p.onrender.com/api/users/getAllUser`)
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, [users]);

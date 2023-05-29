@@ -3,7 +3,7 @@
 import _ from 'lodash';
 import { useEffect, useReducer, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';
 import Answers from './Answers';
 import ProgressBar from './ProgressBar';
@@ -65,11 +65,14 @@ const Quiz = () => {
 
   const quizSubmit = () => {
     const email = user.email;
-    fetch(`http://localhost:5000/api/result/${'647080c4598ead408fd662e0'}`, {
-      headers: { 'Content-Type': 'application/json' },
-      method: 'PUT',
-      body: JSON.stringify({ questions: qna }),
-    })
+    fetch(
+      `https://quiz-app-server-q68p.onrender.com/api/result/${'647080c4598ead408fd662e0'}`,
+      {
+        headers: { 'Content-Type': 'application/json' },
+        method: 'PUT',
+        body: JSON.stringify({ questions: qna }),
+      }
+    )
       .then((res) => res.json())
       .then((data) => console.log(data));
   };
